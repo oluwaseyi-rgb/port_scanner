@@ -1,17 +1,17 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
-║          OLUWASEYI PORT SCANNER & VULNERABILITY FINDER                                   ║
-║   For authorized security testing and network auditing only                         ║
+║          MULA PORT SCANNER & VULNERABILITY FINDER            ║
+║   For authorized security testing and network auditing only  ║
 ╚══════════════════════════════════════════════════════════════╝
 
 Usage:
-   python port_scanner.py -t <target> [options]
+   python portscope.py -t <target> [options]
 
 Examples:
-    python port_scanner.py -t 192.168.1.1
-    python port_scanner.py -t 192.168.1.1 -p 1-1000 --vulns
-    python port_scanner.py -t 192.168.1.1 -p 22,80,443,8080 --output report.txt
-    python port_scanner.py -t 192.168.1.1 --top-ports --threads 100
+    python portscope.py -t 192.168.1.1
+    python portscope.py -t 192.168.1.1 -p 1-1000 --vulns
+    python portscope.py -t 192.168.1.1 -p 22,80,443,8080 --output report.txt
+    python portscope.py -t 192.168.1.1 --top-ports --threads 100
 
   WARNING: Only scan systems you own or have explicit written permission to test.
    Unauthorized port scanning may be illegal in your jurisdiction.
