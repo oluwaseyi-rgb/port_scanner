@@ -18,6 +18,7 @@ python portscope.py -t 192.168.1.1
 
 # DEMONSTRATION  
 
+
 ──────────────────────────────────────────────────────────────
   ⚠  LEGAL NOTICE
   This tool is for authorized security testing only.
@@ -25,28 +26,34 @@ python portscope.py -t 192.168.1.1
   any target you do not personally own.
   Unauthorized scanning may violate computer crime laws.
 ──────────────────────────────────────────────────────────────
+  
   I confirm I have permission to scan this target [y/N]: y
 
+
 ══════════════════════════════════════════════════════════════
-  ONYX PORT SCANNER v1.0.0
+  MULA PORT SCANNER v1.0.0
 ══════════════════════════════════════════════════════════════
 
+  
   Target  : 192.168.1.1
   Ports   : 65 ports
   Threads : 100
   Timeout : 1.5s
   Time    : 2026-10-09 15:59:09
 
+
 ──────────────────────────────────────────────────────────────
   Scanning...
   Scan complete — 2.36s                    ] 65/65
 
 ──────────────────────────────────────────────────────────────
+
   PORT      STATE     SERVICE             VERSION
 ──────────────────────────────────────────────────────────────
   53        open      DNS                 unknown
 
 ══════════════════════════════════════════════════════════════
+
   SCAN SUMMARY
 ──────────────────────────────────────────────────────────────
   Open ports found  : 1
